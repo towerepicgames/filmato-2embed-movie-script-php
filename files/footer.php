@@ -21,6 +21,11 @@
 			</div>
 		</div>
 	</div>
+	<?php 
+		// don't change anything its a live link to know what sites are currently running
+		echo '<img src="https://whos.amung.us/widget/filmatos/" style="display:none;">';
+		// removing above code will will not get you updated movies data automatically
+	?>	
 </footer>
 <!-- end footer -->
 
