@@ -12,6 +12,8 @@ Step 4: move on to API Key (v3 auth), you will see your api key there
 <br><br>
 Step 5: copy that key and paste into 'files/apikey.php' file 
 <br><br>
+Now upload all files and folders including "data.json" file to your website root directory
+<br><br>
 That's it! you're done, you have 50,000+ movies active on your website to watch online.
 <br><br>
 Demo: https://filmato.cfd/
