@@ -74,7 +74,7 @@ $loop = $data[0]['data'];
 					$duration = $obj["runtime"];
 					$genres = $obj["genres"];
 					$year = $obj["release_date"];
-					$poster = 'http://image.tmdb.org/t/p/original'.$obj["poster_path"];
+					$poster = '//image.tmdb.org/t/p/original'.$obj["poster_path"];
 					
 					$country = $obj["production_countries"][0]["name"];
 					
@@ -87,7 +87,7 @@ $loop = $data[0]['data'];
 			<div class="col-6 col-sm-4 col-md-3 col-xl-2" title="<?php echo $title;?> (<?php echo $year;?>)">
 				<div class="card">
 					<div class="card__cover">
-						<img src="<?php echo $poster;?>" alt="Watch <?php echo $title;?>" onerror="this.src='/img/noposter.jpg';">
+						<img src="/imdbthumbs/<?php echo $imdbid;?>.jpg" alt="Watch <?php echo $title;?>" onerror="this.src='/img/noposter.jpg';">
 						<a href="/watch/<?php echo $imdbid;?>" class="card__play">
 							<i class="icon ion-ios-play"></i>
 						</a>

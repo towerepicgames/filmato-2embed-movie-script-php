@@ -79,7 +79,7 @@ $loop = $data[0]['data'];
 						$duration = $obj["runtime"];
 						$genres = $obj["genres"];
 						$year = $obj["release_date"];
-						$poster = 'http://image.tmdb.org/t/p/original'.$obj["poster_path"];
+						$poster = '//image.tmdb.org/t/p/original'.$obj["poster_path"];
 						
 						$country = $obj["production_countries"][0]["name"];
 						
@@ -162,7 +162,7 @@ $loop = $data[0]['data'];
 						$duration = $obj["runtime"];
 						$genres = $obj["genres"];
 						$year = $obj["release_date"];
-						$poster = 'http://image.tmdb.org/t/p/original'.$obj["poster_path"];
+						$poster = '//image.tmdb.org/t/p/original'.$obj["poster_path"];
 						
 						$country = $obj["production_countries"][0]["name"];
 						

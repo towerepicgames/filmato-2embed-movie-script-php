@@ -27,7 +27,7 @@ $title = $obj["title"];
 $duration = $obj["runtime"];
 $genres = $obj["genres"];
 $plot = $obj["overview"];
-$poster = 'http://image.tmdb.org/t/p/original'.$obj["poster_path"];
+$poster = '//image.tmdb.org/t/p/original'.$obj["poster_path"];
 
 $country = $obj["production_countries"][0]["name"];
 
@@ -45,7 +45,8 @@ $desc = implode(' ', array_slice(str_word_count($plot,1), 0, 20));
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+<meta name="robots" content="index, follow">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title><?php echo implode($wtitle);?> – Filmato Movie Script by 2Embed.cc</title>
 <meta name="description" content="Watch <?php echo $title;?> Online, <?php echo $desc;?>">
@@ -85,7 +86,7 @@ $desc = implode(' ', array_slice(str_word_count($plot,1), 0, 20));
 					<!-- card cover -->
 					<div class="col-12 col-sm-5 col-lg-6 col-xl-5">
 						<div class="card__cover">
-							<img src="<?php echo $poster;?>" onerror="this.src='/img/noposter.jpg';">
+							<img src="/imdbthumbs/<?php echo $imdbid;?>.jpg" onerror="this.src='/img/noposter.jpg';">
 							<?php
 								foreach($loop as $jsonArrayKeyz => $jsonArrayValue){
 										$imdblink = $jsonArrayValue['imdb'];
@@ -197,8 +198,8 @@ $desc = implode(' ', array_slice(str_word_count($plot,1), 0, 20));
 							?>
 							<!-- gallery item -->
 							<figure class="col-12 col-sm-6 col-xl-4" itemprop="associatedMedia" itemscope>
-								<a href="http://image.tmdb.org/t/p/original<?php echo $relimg;?>" itemprop="contentUrl" data-size="1920x1280">
-									<img src="http://image.tmdb.org/t/p/original<?php echo $relimg;?>" itemprop="thumbnail" alt="<?php echo $title;?>" />
+								<a href="//image.tmdb.org/t/p/original<?php echo $relimg;?>" itemprop="contentUrl" data-size="1920x1280">
+									<img src="//image.tmdb.org/t/p/original<?php echo $relimg;?>" itemprop="thumbnail" alt="<?php echo $title;?>" />
 								</a>
 								<figcaption itemprop="caption description"><?php echo $title;?> (Images)</figcaption>
 							</figure>
@@ -245,7 +246,7 @@ $desc = implode(' ', array_slice(str_word_count($plot,1), 0, 20));
 						$duration = $obj["runtime"];
 						$genres = $obj["genres"];
 						$year = $obj["release_date"];
-						$poster = 'http://image.tmdb.org/t/p/original'.$obj["poster_path"];
+						$poster = '//image.tmdb.org/t/p/original'.$obj["poster_path"];
 						
 						$country = $obj["production_countries"][0]["name"];
 						
@@ -258,7 +259,7 @@ $desc = implode(' ', array_slice(str_word_count($plot,1), 0, 20));
 				<div class="col-6 col-sm-4 col-lg-6" title="<?php echo $title;?> (<?php echo $year;?>)">
 					<div class="card">
 						<div class="card__cover">
-							<img src="<?php echo $poster;?>" alt="Watch <?php echo $title;?>" onerror="this.src='/img/noposter.jpg';" alt="Watch <?php echo $title;?> Online">
+							<img src="/imdbthumbs/<?php echo $imdbid;?>.jpg" alt="Watch <?php echo $title;?>" onerror="this.src='/img/noposter.jpg';" alt="Watch <?php echo $title;?> Online">
 							<a href="/watch/<?php echo $imdbid;?>" class="card__play">
 								<i class="icon ion-ios-play"></i>
 							</a>
