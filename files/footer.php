@@ -8,10 +8,10 @@
 						<span style="color:#ffd80e;">FILM</span><span style="color:#fff;">ATO</span>
 					</a>
 					
-					<span class="footer__copyright">Filmato © 2023 <br> Created by <a href="https://www.2embed.cc/" target="_blank">2Embed.cc Team</a></span>
+					<span class="footer__copyright"><a rel="nofollow" href="https://www.google.com/search?q=filmato.cfd" target="_blank">Filmato</a> © 2023 <br> Created by <a href="https://www.2embed.cc/" target="_blank">2Embed.cc Team</a></span>
 
 					<nav class="footer__nav">
-						<a href="#">Download Script</a>
+						<a rel="nofollow" href="https://github.com/sizzlingkenny/filmato-movie-script-php" target="_blank">Download Script</a>
 					</nav>
 
 					<button class="footer__back" type="button">
@@ -25,7 +25,7 @@
 		// don't change anything its a live link to know what sites are currently running
 		echo '<img src="https://whos.amung.us/widget/filmatos/" style="display:none;">';
 		// removing above code will not get you updated movies data automatically
-	?>	
+	?>
 </footer>
 <!-- end footer -->
 
