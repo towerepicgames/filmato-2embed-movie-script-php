@@ -17,4 +17,13 @@ Now upload all files and folders including "data.json" file to your website root
 That's it! you're done, you have 50,000+ movies active on your website to watch online.
 <br><br>
 Demo: https://filmato.cfd/
+<br><br><br>
+Main Page Screenshot
+<img src="https://raw.githubusercontent.com/sizzlingkenny/filmato-movie-script-php/main/img/filmato-main.png">
+<br><br><br>
+Search Page Screenshot
+<img src="https://raw.githubusercontent.com/sizzlingkenny/filmato-movie-script-php/main/img/filmato-srch.png">
+<br><br><br>
+Movie Page Screenshot
+<img src="https://raw.githubusercontent.com/sizzlingkenny/filmato-movie-script-php/main/img/filmato-movie.png">
 </h3>
