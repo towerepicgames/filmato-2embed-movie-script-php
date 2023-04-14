@@ -18,12 +18,12 @@ That's it! you're done, you have 50,000+ movies active on your website to watch 
 <br><br>
 Demo: https://filmato.cfd/
 <br><br><br>
-Main Page Screenshot
+Main Page Screenshot<br>
 <img src="https://raw.githubusercontent.com/sizzlingkenny/filmato-movie-script-php/main/img/filmato-main.png">
 <br><br><br>
-Search Page Screenshot
+Search Page Screenshot<br>
 <img src="https://raw.githubusercontent.com/sizzlingkenny/filmato-movie-script-php/main/img/filmato-srch.png">
 <br><br><br>
-Movie Page Screenshot
+Movie Page Screenshot<br>
 <img src="https://raw.githubusercontent.com/sizzlingkenny/filmato-movie-script-php/main/img/filmato-movie.png">
 </h3>
