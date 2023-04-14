@@ -8,10 +8,11 @@ $loop = $data[0]['data'];
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+<meta name="robots" content="index, follow">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Filmato – Watch and Embed Full HD Movies by 2Embed.cc</title>
-<meta name="description" content="Filmato is an awesome IMDB and TMDB streaming API to embed 50,000+ movies on your website in 2 minutes.">
+<title>Filmato – Stream Full HD Movies</title>
+<meta name="description" content="">
 <link rel="stylesheet" href="/css/bootstrap-reboot.min.css">
 <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
 <link rel="stylesheet" href="/css/owl.carousel.min.css">
@@ -89,7 +90,7 @@ $loop = $data[0]['data'];
 				?>
 				<div class="card card--big" title="<?php echo $title;?> (<?php echo $year;?>)">
 					<div class="card__cover">
-						<img src="<?php echo $poster;?>" onerror="this.src='/img/noposter.jpg';" alt="Watch <?php echo $title;?>">
+						<img src="/imdbthumbs/<?php echo $imdbid;?>.jpg" onerror="this.src='/img/noposter.jpg';" alt="Watch <?php echo $title;?>">
 						<a href="/watch/<?php echo $imdbid;?>" class="card__play">
 							<i class="icon ion-ios-play"></i>
 						</a>
@@ -174,7 +175,7 @@ $loop = $data[0]['data'];
 				<div class="col-6 col-sm-4 col-md-3 col-xl-2" title="<?php echo $title;?> (<?php echo $year;?>)">
 					<div class="card">
 						<div class="card__cover">
-							<img src="<?php echo $poster;?>" alt="Watch <?php echo $title;?>" onerror="this.src='/img/noposter.jpg';">
+							<img src="/imdbthumbs/<?php echo $imdbid;?>.jpg" alt="Watch <?php echo $title;?>" onerror="this.src='/img/noposter.jpg';">
 							<a href="/watch/<?php echo $imdbid;?>" class="card__play">
 								<i class="icon ion-ios-play"></i>
 							</a>
@@ -198,21 +199,6 @@ $loop = $data[0]['data'];
 		</div>
 </section>
 <!-- end content -->
-
-<!-- section -->
-<section class="section">
-<div class="container">
-	<div class="row">
-		<div class="col-12">
-			<h2 class="section__title"><b>Filmato</b> – Best Watch Movies Script PHP</h2>
-			<p class="section__text">Download free stream movies script in PHP and HTML No-Database required, Just download the files and upload to your website root and that's it, 50,000+ full hd movies in the data.json file is also included.</p>
-			<p class="section__text">Sharing is caring, please consider sharing us with others this is how you can thanks us for our tremendous effort.</p>
-		</div>
-	</div>
-</div>
-</section>
-<!-- end section -->
-
 <?php include_once('files/footer.php');?>
 </body>
 </html>
