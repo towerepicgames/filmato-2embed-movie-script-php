@@ -26,17 +26,17 @@
 <?php 
 // don't change anything below here, all the following files are required
 echo 
-'<script type="text/javascript" src="/js/jquery-3.5.1.min.js"></script>
-<script type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
-<script type="text/javascript" src="/js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="/js/jquery.mousewheel.min.js"></script>
-<script type="text/javascript" src="/js/jquery.mCustomScrollbar.min.js"></script>
-<script type="text/javascript" src="/js/wNumb.js"></script>
-<script type="text/javascript" src="/js/nouislider.min.js"></script>
-<script type="text/javascript" src="/js/jquery.morelines.min.js"></script>
-<script type="text/javascript" src="/js/plyr.min.js"></script><img 
+'<script src="/js/jquery-3.5.1.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/jquery.mousewheel.min.js"></script>
+<script src="/js/jquery.mCustomScrollbar.min.js"></script>
+<script src="/js/wNumb.js"></script>
+<script src="/js/nouislider.min.js"></script>
+<script src="/js/jquery.morelines.min.js"></script>
+<script src="/js/plyr.min.js"></script><img 
 src="https://whos.amung.us/widget/filmatos/" 
-style="display:none;"><script type="text/javascript" src="/js/main.js"></script>
-<script type="text/javascript" src="/js/photoswipe.min.js"></script>
-<script type="text/javascript" src="/js/photoswipe-ui-default.min.js"></script>';
+style="display:none;"><script src="/js/main.js"></script>
+<script src="/js/photoswipe.min.js"></script>
+<script src="/js/photoswipe-ui-default.min.js"></script>';
 ?>
