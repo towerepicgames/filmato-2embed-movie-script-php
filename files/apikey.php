@@ -1,0 +1,1 @@
+<?php $apikey = 'YOUR-TMDB-API-KEY-PASTE-HERE'?>
