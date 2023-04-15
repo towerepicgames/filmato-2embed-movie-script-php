@@ -5,7 +5,7 @@ include_once 'files/datafile.php';
 
 $getimdb = $_GET['imdb'];
 
-$json = file_get_contents($datafile);		
+$jsonown = file_get_contents($datafile);		
 $data = json_decode($jsonown, true);
 $loop = $data[0]['data'];
 
