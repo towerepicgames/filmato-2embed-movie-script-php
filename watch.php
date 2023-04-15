@@ -1,11 +1,11 @@
 <?php
 ini_set('display_errors', 0);
 include_once 'files/apikey.php';
+include_once 'files/datafile.php';
 
 $getimdb = $_GET['imdb'];
 
-$movs = 'data.json';
-$jsonown = file_get_contents($movs);		
+$json = file_get_contents($datafile);		
 $data = json_decode($jsonown, true);
 $loop = $data[0]['data'];
 

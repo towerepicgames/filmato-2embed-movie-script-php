@@ -1,11 +1,11 @@
 <?php
 ini_set('display_errors',0);
 include_once 'files/apikey.php';
-$movs = 'data.json';
+include_once 'files/datafile.php';
 
 $key = $_GET['q'];
 
-$json = file_get_contents($movs);		
+$json = file_get_contents($datafile);	
 $data = json_decode($json, true);
 $loop = $data[0]['data'];
 ?>
